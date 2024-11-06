@@ -1,0 +1,62 @@
+<div *ngIf="!isLoginSuccess">
+  <div class="d-flex justify-content-center">
+    <app-main-header [headerValue]="'Login'"></app-main-header>
+  </div>
+
+  <form [formGroup]="loginForm">
+    <div class="form-group mt-2" style="width: 500px">
+      <label for="email">Email</label>
+      <div class="input-icon">
+        <input
+          type="email"
+          class="form-control"
+          formControlName="email"
+          id="email"
+          placeholder=""
+        />
+        <span class="icon"><i class="fas fa-envelope"></i></span>
+      </div>
+    </div>
+    <div class="form-group mt-2" style="width: 500px">
+      <label for="password">Password</label>
+      <input
+        type="password"
+        formControlName="password"
+        class="form-control"
+        id="password"
+        placeholder=""
+      />
+    </div>
+  </form>
+  <div class="form-group mt-5 text-center">
+    <button
+      type="button"
+      (click)="onSubmit()"
+      class="btn btn-primary fw-bold"
+      style="width: 150px; margin-right: 10px"
+    >
+      Login
+    </button>
+    <!-- <div class="text-end"> -->
+    <button
+      type="button"
+      (click)="onSignup()"
+      class="btn btn-secondary fw-bold"
+      style="width: 150px"
+    >
+      Signup
+    </button>
+    <!-- </div> -->
+  </div>
+</div>
+
+<!-- <div *ngIf="isLoginSuccess">
+  <button
+    type="button"
+    class="btn btn-primary fw-bold"
+    style="width: 150px"
+    routerLink=""
+  >
+    Back to registration page
+  </button>
+</div> -->

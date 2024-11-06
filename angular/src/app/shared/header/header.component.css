@@ -1,0 +1,14 @@
+.custom-logo {
+  max-width: 200px; /* Adjust size as needed */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.canteen-image {
+  width: inherit;
+}
+
+@media (max-width: 991px) {
+  .custom-logo {
+    width: 100px;
+  }
+}

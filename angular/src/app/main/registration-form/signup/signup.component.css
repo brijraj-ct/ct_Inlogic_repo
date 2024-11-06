@@ -1,0 +1,140 @@
+#exampleCheck1:checked {
+  background-color: red;
+  border-color: red;
+}
+
+#exampleRadios1:checked {
+  background-color: red;
+  border-color: red;
+}
+
+#exampleRadios2:checked {
+  background-color: red;
+  border-color: red;
+}
+
+.btncontinue {
+  width: 250px;
+  display: block;
+  border: 2px solid #d4d8d8;
+  background-color: #fff;
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btncontinue p {
+  font-size: 14px;
+  margin-bottom: 0;
+  margin-left: 8px;
+  width: 172px;
+  text-align: left;
+  color: #212529;
+}
+
+.bullet {
+  font-size: 14px;
+  color: #687373;
+  position: relative;
+  padding-left: 25px;
+}
+
+.bullet::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: rgb(126, 124, 124);
+  font-size: 2.5em;
+  top: 65%;
+  transform: translateY(-50%);
+  padding-bottom: 5px;
+}
+
+.is-invalid {
+  background-color: rgb(245, 221, 221);
+  border-color: rgb(236, 236, 236);
+  background-image: none !important;
+}
+
+/* ::ng-deep int-phone-prefix.ng-invalid,
+::ng-deep int-phone-prefix.ng-invalid input {
+    background-color: rgb(245, 221, 221);
+    border-color: rgb(236, 236, 236);
+} */
+
+.valid::before {
+  color: green;
+}
+
+.input-icon {
+  position: relative;
+}
+
+.input-icon .form-control {
+  padding-right: 30px;
+}
+
+.input-icon .icon {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: rgb(190, 189, 189);
+}
+
+.alert {
+  margin-top: 10px;
+  color: #856404;
+  background-color: #fff3cd;
+  border-color: #ffeeba;
+}
+
+::ng-deep .dropbtn.btn {
+  display: inline-block !important;
+  padding: 7px 12px !important;
+  margin-bottom: 0 !important;
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  line-height: 1.42857143 !important;
+  text-align: center !important;
+  white-space: nowrap !important;
+  vertical-align: middle !important;
+  -ms-touch-action: manipulation !important;
+  touch-action: manipulation !important;
+  cursor: pointer !important;
+  -webkit-user-select: none !important;
+  -moz-user-select: none !important;
+  -ms-user-select: none !important;
+  user-select: none !important;
+  background-image: none !important;
+  border: 1px solid transparent !important;
+  border-radius: 8px 0 0 8px !important;
+}
+
+/*--------------------custom-css--------------------*/
+label {
+  font-size: 14px;
+  font-weight: 400;
+  color: #687373;
+}
+.int-num-input .form-control {
+  border: none !important;
+}
+
+@media (max-width: 430px) {
+  .bullet {
+    width: 100%;
+  }
+}
+@media (max-width: 991px) {
+  label {
+    font-size: 12px;
+  }
+}
+
+::ng-deep.flagInput {
+  border: var(--bs-border-width) solid var(--bs-border-color) !important;
+  border-radius: var(--bs-border-radius) !important;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}

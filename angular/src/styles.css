@@ -1,0 +1,35 @@
+/* You can add global styles to this file, and also import other style files */
+* {
+  font-family: "helvetica";
+}
+.w-65 {
+  width: 65% !important;
+}
+
+.w-35 {
+  width: 35% !important;
+}
+
+.breaking-line-hr {
+  border: none;
+  border-top: 1px dashed black;
+}
+.bg-light {
+  background-color: #f8f9fa !important;
+}
+
+.font-darkgray {
+  color: #1d2020;
+}
+.font-semibold {
+  font-weight: 700;
+}
+.font-red {
+  color: #db1f26;
+}
+.font-white {
+  color: #fff;
+}
+.custom-wrap-spacing {
+  padding: 15px;
+}

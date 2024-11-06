@@ -1,0 +1,171 @@
+.features-list {
+  list-style: none;
+  padding: 0 0 0 20px;
+}
+
+.features-list li {
+  font-size: 16px;
+  color: #000c73;
+}
+
+.features-list li::before {
+  content: "✓";
+  position: absolute;
+  left: 14px;
+  color: #000c73;
+}
+
+#apply-coupon-button {
+  border-radius: 5px;
+}
+
+#apply-coupon-div {
+  border-radius: 5px;
+  border: 1px dashed #d4d8d8;
+}
+
+#membership1:checked {
+  background-color: red;
+  border-color: red;
+}
+
+#membership2:checked {
+  background-color: red;
+  border-color: red;
+}
+
+.lblSave {
+  font-size: 12px;
+  width: 88px;
+  font-weight: 700;
+  padding: 5px 0px;
+  background-color: #f2c800;
+  border-radius: 12px;
+  color: #fff;
+}
+
+.card.selected {
+  background-color: rgb(247, 247, 247);
+}
+
+input[type="number"] {
+  -moz-appearance: textfield; /* Firefox */
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none; /* Chrome, Safari, and Opera */
+  margin: 0; /* Remove margin */
+}
+
+.card {
+  border: none;
+}
+.dashed-divider {
+  border: 1px dashed #d4d8d8;
+}
+.membership-type {
+  border: 1px solid #efefef;
+  border-radius: 8px;
+  width: 100%;
+}
+
+.subscription-title {
+  font-size: 20px;
+}
+.flex-grow-1 strong {
+  font-size: 14px;
+  font-weight: 400;
+}
+.btn-outline-danger {
+  height: 40px;
+  width: 40px;
+  padding: 5px;
+  border: 1px solid #db1f26;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+}
+#counter {
+  font-size: 18px;
+  width: 18%;
+}
+.membership-title {
+  font-size: 20px;
+}
+.card-main-title {
+  font-size: 14px;
+  color: #1b252b;
+}
+.card-sub-title {
+  font-size: 12px;
+  font-weight: 400;
+}
+.features-title {
+  font-size: 14px;
+  color: #1d2020;
+}
+.coupon-input input {
+  padding: 10px;
+  font-size: 12px;
+}
+.btn-apply-coupon {
+  padding: 5px 10px;
+  font-size: 16px;
+  width: max-content;
+  background-color: #1d2020;
+  border-radius: 8px;
+}
+.amount-wrapper h5 {
+  font-size: 18px;
+  color: #1d2020;
+  font-weight: 700;
+}
+.amount-wrapper p {
+  font-size: 22px;
+  color: #1d2020;
+  font-weight: 700;
+}
+.amount-wrapper span {
+  padding-right: 4px;
+  font-size: 16px;
+}
+/*--------media-query-css---------*/
+@media (max-width: 991px) {
+  .subscription-title {
+    font-size: 16px;
+  }
+  .flex-grow-1 strong {
+    font-size: 14px;
+  }
+  .btn-outline-danger {
+    height: 32px;
+    width: 32px;
+    padding: 5px;
+    border: 1px solid #db1f26;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+  }
+  .membership-title {
+    font-size: 16px;
+  }
+  .features-list li {
+    font-size: 14px;
+  }
+  .btn-apply-coupon {
+    padding: 5px 10px;
+    font-size: 10px;
+  }
+  .amount-wrapper h5 {
+    font-size: 14px;
+  }
+  .amount-wrapper p {
+    font-size: 16px;
+  }
+  .amount-wrapper span {
+    font-size: 12px;
+  }
+}

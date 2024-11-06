@@ -1,0 +1,19 @@
+.input-icon {
+  position: relative;
+}
+
+.input-icon .form-control {
+  padding-right: 30px;
+}
+
+.input-icon .icon {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: rgb(190, 189, 189);
+}
+
+.btn-secondary {
+  width: 10px;
+}

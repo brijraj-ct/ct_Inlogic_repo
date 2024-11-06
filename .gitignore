@@ -1,0 +1,16 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/asp.netcore/.vs
+/asp.netcore/User_Registration_Demo/bin/Debug/net8.0
+/asp.netcore/User_Registration_Demo/obj
+/asp.netcore/User_Registration_Demo.Core/bin/Debug/net8.0
+/asp.netcore/User_Registration_Demo.Core/obj
+/asp.netcore/User_Registration_Demo.Domain/bin/Debug/net8.0
+/asp.netcore/User_Registration_Demo.Domain/obj
+/asp.netcore/User_Registration_Demo.Infrastructure/bin/Debug/net8.0
+/asp.netcore/User_Registration_Demo.Infrastructure/obj
+/asp.netcore/User_Registration_Demo.IOC/bin/Debug/net8.0
+/asp.netcore/User_Registration_Demo.IOC/obj
+/asp.netcore/User_Registration_Demo/.vs

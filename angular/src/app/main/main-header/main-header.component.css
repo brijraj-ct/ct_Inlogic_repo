@@ -1,0 +1,17 @@
+h2 {
+  font-size: 32px;
+}
+h5 {
+  font-size: 18px;
+  padding-top: 10px;
+}
+
+@media (max-width: 991px) {
+  h2 {
+    font-size: 20px;
+  }
+  h5 {
+    font-size: 14px;
+    padding-top: 4px;
+  }
+}
